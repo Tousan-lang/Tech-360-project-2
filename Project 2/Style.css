@@ -1,0 +1,203 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color:rgb(255,255,255);
+  }
+  
+  .firstone{
+    height:10px;
+  }
+  /* This is the navbar sectiion */
+  .navbar {
+    background-color: teal;
+    font-family: 'lora', serif;
+    text-transform:uppercase;
+    font-weight: 500;
+    
+  }
+  .navbar a {
+    color: white;
+    
+  }
+
+
+  .nav-link{
+    opacity:0.7;
+  }
+
+  .nav-link:hover{
+    opacity:1;
+    background-color:yellow;
+    color:black;
+    
+  }
+  /* This is the end of the navbar section */
+
+
+/* This is all a part of the first page */
+  .home-container{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightcoral;
+  }
+
+  .Slogan{
+    box-sizing: border-box;
+    text-align: center;
+    height:600px;
+    color: white;
+    border-style: solid;
+    background-image: url("Skyrim.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+  }
+  .now{
+    background-color: green;
+    color: white;
+    
+  }
+
+  .contact{
+    margin-bottom: 80px;
+    
+  }
+  .contact .input-group{
+  margin-bottom: 25px;
+  }
+  
+  .contact  i {
+    font-size:24px;
+    padding:15px;
+    color:#fff;
+    background-color: #5bc0de;
+    border-radius:10%;
+  }
+  .contact img{
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: lightblue;
+  }
+  .contact .btn { 
+    border-radius: 10%;
+    width:100%;
+    font-size:15px;
+    background-color:teal;
+    color:white;
+    padding:20px;
+
+  }
+  .contact .btn:hover{
+    background-color:orange;
+    color: black;
+    padding: 25px;
+  }
+
+  
+ .footer {
+  background-color: teal;
+  box-sizing: border-box;
+  border-style: solid;
+  
+}
+
+.footer ul{
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+.footer i {
+  padding: 15px 10px;
+}
+
+.footer .btn {
+  background-color: green;
+  color: #fff;
+}
+
+.footer .btn:hover{
+  background-color: lightcoral;
+  opacity:1;
+}
+.footer img{
+  border-radius:50%;
+  margin-right: 10px;
+}
+/* This is the end of the first page */
+
+/* This is the start of the Services section */
+  .service-container{
+    text-align: center;
+  }
+ 
+
+  .Team{
+    background-color:orange;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    }
+  
+  .Team img { 
+    width:250px;
+    height: 250px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-bottom:50px;
+
+   
+  }
+  
+
+  .fixed-size-img {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 30%;
+    border-style:solid;
+    border-color:aliceblue;
+}
+
+.eye {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 39px;
+  margin-left: 100px;
+}
+.eye-ball {
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+.eye:hover .eye-ball {
+  transform: translate(-50%, -25%);
+}
+
+
+ 
+
+  
+  
+  
+ 
